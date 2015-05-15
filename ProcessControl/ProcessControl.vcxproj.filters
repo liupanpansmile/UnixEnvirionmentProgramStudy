@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{eff1953c-f9ed-472e-ae42-e30f01036682}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{743b6c43-40de-4a56-9ffe-46afcd5ce864}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{0d380b09-97e5-44d3-945d-e8b084a456ae}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{df0e4288-5c36-4df6-b421-db3bb7f6de03}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProcessControl.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="fork.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie_orphan.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="fork_setbuf.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="exec.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4d6b3e91-2394-42b9-858c-73613523be81}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{b30ffb2f-a928-4b7a-8cc5-74df450f0dc4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{3a38d596-5513-4532-bcd6-ab57cfaed800}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{f7bccc50-e09e-4ac6-bda0-52f68a040a41}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pthreadTest.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="create_phread.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_exit_code.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mem_override.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_cleanup_push_test.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_pthread_detach.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="producer_consumer.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_stl_deque.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

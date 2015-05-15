@@ -1,0 +1,15 @@
+﻿生成启动时间为 2015/4/17 11:54:38。
+     1>项目“F:\vsCode\UnixEnvironmentProgramStudy\SignalRestudy\SignalRestudy.vcxproj”在节点 2 上(Build 个目标)。
+     1>Build:
+         "E:\work software\VisualGDB\\VisualGDB.exe" /build "F:\vsCode\UnixEnvironmentProgramStudy\SignalRestudy\SignalRestudy.vcxproj" "/solution:F:\vsCode\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Attempting inline build...
+         VisualGDB: No file changes detected. If you believe it's a mistake, please clean the project and build it again.
+         VisualGDB: Executing prebuild actions
+         VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/f/vsCode/UnixEnvironmentProgramStudy/SignalRestudy" on lpp@10.128.7.137 (SSH)
+         make: Nothing to be done for `all'.
+         VisualGDB: Executing postbuild actions
+     1>已完成生成项目“F:\vsCode\UnixEnvironmentProgramStudy\SignalRestudy\SignalRestudy.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.98

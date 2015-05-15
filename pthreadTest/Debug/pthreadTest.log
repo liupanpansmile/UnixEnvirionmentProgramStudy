@@ -1,0 +1,33 @@
+﻿生成启动时间为 2015/4/18 9:41:37。
+     1>项目“C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\pthreadTest\pthreadTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\pthreadTest\pthreadTest.vcxproj" "/solution:C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Attempting inline build...
+         VisualGDB: Sending 1 updated source files to build machine...
+         VisualGDB: Executing prebuild actions
+         VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/c/Users/Administrator/Desktop/UnixEnvironmentProgramStudy/UnixEnvironmentProgramStudy/pthreadTest" on lpp@192.168.95.128 (SSH)
+         g++ -ggdb -ffunction-sections -O0   -DDEBUG  -c test_stl_deque.cpp -o Debug/test_stl_deque.o -MD -MF Debug/test_stl_deque.dep
+         test_stl_deque.cpp: In function ‘void test_deque()’:
+     1>C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\pthreadTest\test_stl_deque.cpp(7,28): error : wrong number of template arguments (3, should be 2)
+           deque<int,allocator<int>,8> ideq ;
+                                     ^
+         In file included from /usr/include/c++/4.8/deque:64:0,
+                          from test_stl_deque.cpp:2:
+     1>C:\Users\Administrator\AppData\Local\VisualGDB\RemoteSourceCache\192.168.95.128\0000\include\c++\4.8\bits\stl_deque.h(730,11): error : provided for ‘template<class _Tp, class _Alloc> class std::deque’
+              class deque : protected _Deque_base<_Tp, _Alloc>
+                    ^
+     1>C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\pthreadTest\test_stl_deque.cpp(7,35): error : invalid type in declaration before ‘;’ token
+           deque<int,allocator<int>,8> ideq ;
+                                            ^
+         make: *** [Debug/test_stl_deque.o] Error 1
+         -------------------------------------------------------------
+         Command exited with code 2
+         Executable: make
+         Arguments: CONFIG=Debug
+         Directory: /tmp/VisualGDB/c/Users/Administrator/Desktop/UnixEnvironmentProgramStudy/UnixEnvironmentProgramStudy/pthreadTest
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: 命令“"C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\pthreadTest\pthreadTest.vcxproj" "/solution:C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy.sln" "/config:Debug" "/platform:Win32"”已退出，代码为 1。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\UnixEnvironmentProgramStudy\UnixEnvironmentProgramStudy\pthreadTest\pthreadTest.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.14
